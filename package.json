@@ -1,0 +1,17 @@
+{
+  "name": "fampay",
+  "version": "1.0.0",
+  "description": "API to fetch latest videos sorted in reverse chronological order of their publishing date",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -L index.js"
+  },
+  "author": "Nalin Garg",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.4"
+  }
+}
