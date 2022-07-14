@@ -7,6 +7,7 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 
+//to hit the endpoint use http://localhost:5000/api/videos/data?q=football&pageNo=1 
 app.use('/api',require('./router'));
 
 app.listen(PORT,()=>{
