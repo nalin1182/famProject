@@ -19,7 +19,7 @@ npm install
 To install all the packages
 
 node index.js 
-To start with 
+To start the server 
 
 API END POINT 
 http://localhost:5000/api/videos/data?q=football&pageNo=1
